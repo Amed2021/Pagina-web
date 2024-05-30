@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>WEB PERSONAL</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+<!--MENU-->
+<div class="Contenedor">
+    <header>
+        <div class="logo">
+            <a href="#">Amed</a>
+
+        </div>
+        <nav id="nav"> 
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                
+                
+            </ul>
+
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultar">
+            <i class="fa-solid fa-bars-progress"></i>
+
+        </div>
+    </header>
+  </div>
+
+<section id="inicio" class="inicio">
+    <div class="Contenido">
+        <div class="contenedor-images">
+            <img src="imagenes/graduacion.png4.jpg" alt="">
+        </div>
+        <h1>Amed Poveda</h1>
+        <h2>Estudiante de Ingenieria Informatica</h2>
+        <div class="Redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+        
+    </div>
+
+</section>
+
+<!--sobre my-->
+<section id="sobremi" class="sobremi">
+    <div class="conten">
+        <h2>Sobre Mi</h2>
+        <p><span>Soy amed</span> Actualmente estudiante de Ingeniería Informática en la Universidad Latinoamericana de Ciencia y Tecnología (ULACIT). Me apasiona la tecnología y el mundo digital me ha llevado a sumergirme en el campo de la ingeniería informática, donde estoy adquiriendo conocimientos y habilidades.
+
+            Soy amante del ciclismo de montaña, la bicicleta se ha convertido en mi compañera fiel, no solo como medio de transporte, sino como una fuente de placer y liberación. Disfruto explorando nuevos lugares.
+            
+            Además, me gusta pasar el tiempo con mi familia y amigos. Salir con ellos nme proporciona momentos de alegría y diversión.</p>
+
+        <div class="fila">
+
+            <div class="Columna">
+                <h3>Informacion Personal</h3>
+                <ul>
+                    <li>
+                        <strong>Nacimiento</strong>
+                        19/10/2001
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        +506 60133743
+                    </li>
+                    <li>
+                        <strong>Correo</strong>
+                        amed20_01@hotmail.com
+                    </li>
+                
+                    <li>
+                        <strong>Direccion</strong>
+                        San Jose/Alajuelita
+                    </li>
+                    <li>
+                        <strong>Funcion</strong>
+                        Estudiante
+                    </li>
+                </ul>
+
+            </div>
+
+            <!--gustos-->
+            <div class="Columna">
+                <h3>Pasatiempos</h3>
+                <div class="PasatiemposAmed">
+                  
+
+                    <div class="pasa">
+                        <i class="fa-solid fa-headset"></i>
+                        <span>MUSICA</span>
+
+
+                    </div>
+
+                    <div class="pasa">
+                        <i class="fa-solid fa-bicycle"></i>
+                        <span>MTB</span>
+
+
+                    </div>
+
+                    <div class="pasa">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <span>EJERCICIO</span>
+
+
+                    </div>
+
+                    <div class="pasa">
+                        <i class="fa-solid fa-people-roof"></i>
+                        <span>FAMILIA</span>
+
+                    </div>
+
+                    <div class="pasa">
+                        <i class="fa-solid fa-tv"></i>
+                        <span>PELICULAS</span>
+
+                    </div>
+
+                    <div class="pasa">
+                        <i class="fa-solid fa-shield-dog"></i>
+                        <span>MASCOTA</span>
+
+                    </div>
+                    <div class="Pasa">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+       
+        <button id="descargarBtn">
+            <a href="pdfs/DarynAmedJaimePovedaResume (3).pdf" download="CV">DESCARGAR CV</a>
+            <i class="fa-solid fa-circle-down"></i>
+            <span class="go"></span>
+        </button>
+        
+
+
+    </div>
+</section>
+
+<!--las habilidades-->
+<section class="skills" id="skills">
+    <div class="contenido-sec">
+            <h2>Skills</h2>
+            <div class="fila">
+
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>C#</span>
+                    <div class="barra-skill">
+                        <div class="progreso c">
+                            <span>75%</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso htmlcss">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="skill">
+                    <span>JAVA</span>
+                    <div class="barra-skill">
+                        <div class="progreso java">
+                            <span>50%</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="barra-skill">
+            <div class="progreso javascript">
+                <span>30%</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="skill">
+        <span>SQL</span>
+        <div class="barra-skill">
+            <div class="progreso sql">
+                <span>75%</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="skill">
+    <span>Python</span>
+    <div class="barra-skill">
+        <div class="progreso office">
+            <span>50%</span>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <div class="skill">
+        <span>REDES</span>
+        <div class="barra-skill">
+            <div class="progreso redes">
+                <span>78%</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="skill">
+        <span>ORACLE</span>
+        <div class="barra-skill">
+            <div class="progreso oracle">
+                <span>50%</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+<!--otras habilidades habilidades-->
+
+<div class="col"></div>
+
+<div class="fila">
+  
+
+     <div class="col">
+            <h3>Soft Skills</h3>
+            <div class="skill">
+                <span>Trabajo en Equipo</span>
+                <div class="barra-skill">
+                    <div class="progreso trabajo en equipo">
+                        <span>100%</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="skill">
+                <span>Iniciativa</span>
+                <div class="barra-skill">
+                    <div class="progreso iniciativa">
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Trabajo Bajo Presion</span>
+                <div class="barra-skill">
+                    <div class="progreso trabajo">
+                        <span>100%</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="skill">
+    <span>Paciencia</span>
+    <div class="barra-skill">
+        <div class="progreso Paciencia">
+            <span>100%</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="skill">
+    <span>Capacidad de Escuchar</span>
+    <div class="barra-skill">
+        <div class="progreso capacidad">
+            <span>100%</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="skill">
+<span>Creatividad</span>
+<div class="barra-skill">
+    <div class="progreso Creatividad">
+        <span>100%</span>
+
+    </div>
+
+</div>
+
+</div>
+
+<div class="skill">
+    <span>Manejo de Conflictos</span>
+    <div class="barra-skill">
+        <div class="progreso conflictos">
+            <span>100%</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+   </section>
+
+   <!--CV-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-sec">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+               <h3>Educacion</h3>
+               <div class="item izq">
+                <h4>Ingenieria Informatica</h4>
+               <span class="lugar">ULACIT</span>
+               <span class="fecha">2022-2025</span>
+               
+            
+            <div class="conector">
+                <div class="circulo">
+
+                </div>
+
+            </div>
+            <div class="item izq">
+                <h4>Bachillerato en Educacion Media</h4>
+               <span class="lugar">Liceo de Alajuelita</span>
+               <span class="fecha">2015-2019</span>
+               
+            
+            <div class="conector">
+                <div class="circulo">
+
+                </div>
+
+            </div>
+               
+               </div>
+               
+            <div class="item izq">
+                <h4>Foundational C# with Microsoft</h4>
+                <span class="lugar">freeCodeCamp/Microsoft</span>
+                <span class="fecha">2023</span>
+
+            </div>
+
+            <div class="conector">
+                <div class="circulo">
+
+                </div>
+
+            </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col derecha">
+                <h3>Experiencia Universitaria</h3>
+                <div class="item der">
+                 <h4>Desarrollo de Aplicacion de Escritorio C#</h4>
+                <span class="lugar">ULACIT</span>
+                <span class="fecha">2023</span>
+                
+             <p>Esta aplicacion de escritorio se realizo en C# para una pyme de salon de belleza donde se requeria poder implementar un inventario de productos, registrar citas, clientes y respectivo cierre de cajas, todo esto conectado a una base de datos </p>
+             <div class="conectord">
+                 <div class="circulod">
+ 
+                 </div>
+ 
+             </div>
+
+             <div class="item der">
+                <h4>Base de Datos</h4>
+               <span class="lugar">ULACIT</span>
+               <span class="fecha">2023</span>
+               
+            <p>Esta base de datos en oracle se llevo acabo en una pyme de aseo personal donde su principal necesidad era tener una buena organizacion de inventario ya que su respectiva base de datos era un excel, por esta necesidad se llevo acabo este proyecto. </p>
+            <div class="conectord">
+                <div class="circulod">
+
+                </div>
+
+            </div>
+
+            
+            <div class="item der">
+                <h4>Desarrolllo de Aplicaciones web</h4>
+               <span class="lugar">ULACIT</span>
+               <span class="fecha">2023</span>
+               
+            <p>En el año 2023 en los  curso de Aplicaciones web y analisis e implementacion de sistemas se requeria desarrollar dos aplicaiones web, la primera  requeria desarrollar una aplicacion enfocada en un negocio de aerolinea donde debia tener un registro de cliente y proveedor ademas de tener lista de vuelos comprado por el cliente, todo esto conectado por firebase. La segunda aplicacion web fue acerca de una empresa de autobuses la cual debia tener rutas, clientes, chofer y administrador, poder designar rutas y precio, esta misma conectada a sql.  </p>
+            <div class="conectord">
+                <div class="circulod">
+
+                </div>
+
+            </div>
+
+ 
+                 </div>
+
+                 
+             <div class="item der">
+                <h4>Pagina Web</h4>
+               <span class="lugar">ULACIT</span>
+               <span class="fecha">2023</span>
+               
+            <p>Gracias a cursos posteriores enfocado en el desarrollo web (Front-End) logre realizar mi propia pagina web</p>
+            <div class="conectord">
+                <div class="circulod">
+
+                </div>
+
+            </div>
+
+ 
+                 </div>
+
+                 
+             <div class="item der">
+                <h4>Topologia de Redes</h4>
+               <span class="lugar">ULACIT</span>
+               <span class="fecha">2023</span>
+               
+            <p>Por medio del simulador de Cisco Packet Tracer se realizaron redes convergentes entre si, donde se requeria implementar el uso de Iot, protocolos como ospf, asignar redes por dhcp, servidores de correo y dns.</p>
+            <div class="conectord">
+                <div class="circulod">
+
+                </div>
+
+            </div>
+
+ 
+                 </div>
+
+ 
+                 </div>
+ 
+             </div>
+        </div>
+
+    </section>
+
+<!--protafolio-->
+<section id="portafolio"  class="portafolio">
+    <div class="contenido-seccion">
+        <h2>PORTAFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="imagenes/bd.png" alt="">
+                <div class="overlay">
+                    <h3>Base de Datos</h3>
+
+                </div>
+
+            </div>
+
+            <div class="proyecto">
+                <img src="imagenes/red.png" alt="">
+                <div class="overlay">
+                    <h3>Topologia de Red</h3>
+
+                </div>
+
+            </div>
+
+            <div class="proyecto">
+                <img src="imagenes/web.jpg" alt="">
+                <div class="overlay">
+                    <h3>Aplicacion web</h3>
+
+                </div>
+
+            </div>
+
+            <div class="proyecto">
+                <img src="imagenes/salon.png" alt="">
+                <div class="overlay">
+                    <h3>Aplicacion</h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="proyecto">
+                <img src="imagenes/aerolinea.png" alt="">
+                <div class="overlay">
+                    <h3>Aplicacion Web</h3>
+
+                </div>
+
+            </div>
+
+            <div class="proyecto">
+                <img src="imagenes/tp.png" alt="">
+                <div class="overlay">
+                    <h3>Red</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--CONTACTO-->
+
+<section id="contacto" class="contacto">
+    <div class="contenido-se">
+        <h2>CONTACTO</h2>
+         <div class="fila">
+            <!--FORMULARIO-->
+            <div class="col">
+                <form id="frm">
+                <div class="input"><input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control"></div>
+                <input type="text"name="txtTelefono" id="txtTelefono" placeholder="Numero de telefono" class="form-control">
+                <input type="text" name="txtCorreo" id="txtCorreo" placeholder="Correo Electronico" class="form-control">
+                <input type="text" name="txtAsunto" id="txtAsunto" placeholder="Asunto" class="form-control">
+                <textarea name="txtMensaje" id="txtMensaje" cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
+               
+                <button id="btnEnviar" class="btnEnviar">Enviar Mensaje<i class="fa-regular fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </form>
+            </div>
+  
+                <!--mapa-->
+                <div class="col">
+                    <img src="imagenes/direccion.png" alt="">
+                    <div class="informacion-dir">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                San Jose, Alajuelita
+
+                            </li>
+
+                            <li>
+
+
+                                <i class="fa-solid fa-mobile"></i>
+                                Tel: 4702-2955
+
+                            </li>
+
+                            <li>
+                                <i class="fa-regular fa-envelope"></i>
+                                Email: amed20_01@hotmail.com
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+   
+
+</section>
+
+<!--footer-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angle-up"></i>
+
+    </a>
+    <div class="Redes">
+        <a href="https://www.facebook.com/amed.jaime"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/__.amed.__/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/amedjaime/"><i class="fa-brands fa-linkedin"></i></a>
+
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+
+<script src="firebase-config.js"></script>
+<script src="contacto.js"></script>
+
+
+
+
+</html>
